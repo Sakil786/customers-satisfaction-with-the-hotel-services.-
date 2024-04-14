@@ -26,3 +26,5 @@ categorized as positive sentiments.
 ## Distribution
 ### Distribution of stars
 The following diagram shows the distribution of stars in the dataset.
+
+![](star.png)
