@@ -23,3 +23,6 @@ yelp_ratings.ċsv is customer feedback data having columns text,stars and sentim
 and 1 represents positive sentiment.
 * Stars rated 1.0 and 2.0 are classified as negative sentiment (0), while stars rated 4.0 and 5.0 are
 categorized as positive sentiments.
+## Distribution
+### Distribution of stars
+The following diagram shows the distribution of stars in the dataset.
