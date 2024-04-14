@@ -75,3 +75,20 @@ that considers both. Higher F1-scores indicate better overall performance.
 * Support: The number of instances for each class in the dataset. It shows how much data was
 available for training and evaluation.
 
+Overall Performance:
+
+* Accuracy: 0.89(how often the model makes correct predictions)
+* Precision: How many of the model’s positive predictions were actually correct.
+  * Precision for positive sentiment: 0.91 (out of 2273 positive sentiment predictions, 91% were
+correct)
+  * Precision for negative sentiment: 0.89 (out of 6633 negative sentiment predictions, 89% were
+correct)
+* Recall: How many of the actual positive sentiment cases did the model predict correctly.
+  * Recall for positive sentiment: 0.63 (out of 2273 actual positive sentiment cases, the model
+predicted 63% correctly)
+  * Recall for negative sentiment: 0.98 (out of 6633 actual negative sentiment cases, the model
+predicted 98% correctly)
+* F1-Score:Harmonic mean between precision and recall.
+  * F1-score for positive sentiment: 0.75
+  * F1-score for negative sentiment: 0.93
+
