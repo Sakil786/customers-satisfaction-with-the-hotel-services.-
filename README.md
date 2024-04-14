@@ -32,3 +32,12 @@ The following diagram shows the distribution of stars in the dataset.
 The following diagram shows the distribution of sentiment in the dataset. The dataset is imbalance as we
 can see from the below figure.
 ![](sentiment.png)
+
+# DATA PREPORCESSING(FEATURE ENGINEERING) AND DATA CLEANING
+## Data Cleaning
+The subsequent actions are taken in this step:
+* Eliminating punctuation marks from the reviews.
+* Removing Numbers from the reviews
+* Removing accented characters from the reviews.
+* Removing special characters from the reviews.
+* Removing stop words and applying lemmatization
