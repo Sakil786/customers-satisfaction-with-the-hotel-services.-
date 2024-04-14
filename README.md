@@ -134,3 +134,31 @@ assess its performance.
 ### Implementation
 I employed the PyTorch framework to create a custom class, utilizing the DataLoader from PyTorch.
 Additionally, a pre-trained model from Hugging Face was invoked.
+
+![](bert1_confusion_metrics.png)
+
+Metrics Explanation:
+
+Class-Specific Metrics:
+* Accuracy: 0.96 (how often the model makes correct predictions)
+* Precision:How many of the model’s positive predictions were actually correct.
+  * Precision for positive sentiment: 0.96 (out of 2273 positive sentiment predictions, 96% were
+correct)
+  * Precision for negative sentiment: 0.96 (out of 6633 negative sentiment predictions, 96% were
+correct)
+* Recall:How many of the actual positive sentiment cases did the model predict correctly.
+  * Recall for positive sentiment: 0.99 (out of 2273 actual positive sentiment cases, the model
+predicted 99% correctly)
+  * Recall for negative sentiment: 0.89 (out of 6633 actual negative sentiment cases, the model
+predicted 89% correctly)
+* F1-Score:Harmonic mean between precision and recall.
+  * F1-score for positive sentiment: 0.97
+  * F1-score for negative sentiment: 0.92
+Obervation :
+* BERT shows promise with higher over all accuracy, precision and F1-scores
+# CODE
+* EDA.ipynb: Please refer this notebook for Exploratory Data Analysis and data preparation
+step.After executing this code, we will get the data for training the model.The data name will
+be :train data.csv
+* ML approachipynb: Please refer this notebook for Machine Learning Approach.
+* DL approachipynb: Please refer this notebook for deep Learning Approach.
