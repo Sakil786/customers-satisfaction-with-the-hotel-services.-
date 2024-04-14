@@ -48,3 +48,13 @@ and thus incorporates sentiment. Subjective text is further classified with sent
 calculate the subjectvity of the Reviews by using TextBlob.
 ### Most Frequently Occuring Words - Top 20
 ![](top_20.png)
+
+# APPROACH
+I prepare the training data from EDA step and the train data is used to develop the model.Initially, we
+adhere to the traditional Machine learning algorithmic approach, and subsequently, we employ deep
+learning techniques.
+## Machine Learning Approach
+In this approach , we used three algorithms:
+* Naive Bayes Classifier
+* Randomforest Classifier
+* Xgboost Classifier
