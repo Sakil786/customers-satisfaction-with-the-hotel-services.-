@@ -127,3 +127,10 @@ predicted 78% correctly)
   * F1-score for negative sentiment: 0.83
 
  ![](xgboost_confusion_metrics.png)
+
+ ## Deep Learning Approach
+ In deep learning approach, I experimented with a transformer-based model called BERT-base-uncased to
+assess its performance.
+### Implementation
+I employed the PyTorch framework to create a custom class, utilizing the DataLoader from PyTorch.
+Additionally, a pre-trained model from Hugging Face was invoked.
