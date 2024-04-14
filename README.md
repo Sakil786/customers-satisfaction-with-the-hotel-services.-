@@ -109,3 +109,21 @@ predicted 98% correctly)
 * F1-Score:Harmonic mean between precision and recall.
   * F1-score for positive sentiment: 0.75
   * F1-score for negative sentiment: 0.93
+### Xgboost Classifier
+Class-Specific Metrics :
+* Accuracy: 0.92 (how often the model makes correct predictions)
+* Precision:How many of the model’s positive predictions were actually correct.
+  * Precision for positive sentiment: 0.93 (out of 2273 positive sentiment predictions, 93% were
+correct)
+  * Precision for negative sentiment: 0.90 (out of 6633 negative sentiment predictions, 90% were
+correct)
+* Recall:How many of the actual positive sentiment cases did the model predict correctly.
+  * Recall for positive sentiment: 0.97 (out of 2273 actual positive sentiment cases, the model
+predicted 97% correctly)
+  * Recall for negative sentiment: 0.78 (out of 6633 actual negative sentiment cases, the model
+predicted 78% correctly)
+* F1-Score:Harmonic mean between precision and recall.
+  * F1-score for positive sentiment: 0.95
+  * F1-score for negative sentiment: 0.83
+
+ ![](xgboost_confusion_metrics.png)
