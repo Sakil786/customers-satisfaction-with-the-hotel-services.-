@@ -41,3 +41,10 @@ The subsequent actions are taken in this step:
 * Removing accented characters from the reviews.
 * Removing special characters from the reviews.
 * Removing stop words and applying lemmatization
+## Data Preporcessing(Feature Engineering)
+### Text Subjectivity
+In natural language, subjectivity refers to expression of opinions, evaluations, feelings, and speculations
+and thus incorporates sentiment. Subjective text is further classified with sentiment or polarity.We
+calculate the subjectvity of the Reviews by using TextBlob.
+### Most Frequently Occuring Words - Top 20
+![](top_20.png)
