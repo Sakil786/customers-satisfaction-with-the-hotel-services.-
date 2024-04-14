@@ -61,3 +61,17 @@ In this approach , we used three algorithms:
 ### Naive Bayes Classifier
 *Result & Metrics:* The following diagram shows the confusion metrics for Naive Bayes algorithm:
 ![](Naive_bayes_confusion_metrics.png)
+
+
+*Metrics Explanation :*
+
+Term Explanation
+* Precision: The proportion of correctly identified instances among those labeled as positive. It
+measures how often the model is correct when it predicts a positive result.
+* Recall: The proportion of actual positive instances that were correctly identified. It measures how
+often the model correctly identifies all positive cases.
+* F1-score: The harmonic mean of precision and recall, providing a balanced measure of accuracy
+that considers both. Higher F1-scores indicate better overall performance.
+* Support: The number of instances for each class in the dataset. It shows how much data was
+available for training and evaluation.
+
