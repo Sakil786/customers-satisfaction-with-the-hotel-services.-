@@ -28,3 +28,7 @@ categorized as positive sentiments.
 The following diagram shows the distribution of stars in the dataset.
 
 ![](star.png)
+### Distribution of Sentiment
+The following diagram shows the distribution of sentiment in the dataset. The dataset is imbalance as we
+can see from the below figure.
+![](sentiment.png)
