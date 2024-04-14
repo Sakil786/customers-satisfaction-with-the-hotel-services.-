@@ -58,3 +58,6 @@ In this approach , we used three algorithms:
 * Naive Bayes Classifier
 * Randomforest Classifier
 * Xgboost Classifier
+### Naive Bayes Classifier
+*Result & Metrics:* The following diagram shows the confusion metrics for Naive Bayes algorithm:
+![](Naive_bayes_confusion_metrics.png)
